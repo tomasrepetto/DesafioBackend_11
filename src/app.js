@@ -19,8 +19,8 @@ import products from './routers/products.js';
 import carts from './routers/carts.js';
 import views from './routers/views.js';
 import { dirname } from './utils.js';
-import { dbConnection } from "./database/config.js";
-import { messageModel } from "./dao/models/messagesModel.js";
+import { dbConnection } from "./config/config.js";
+import { messageModel } from "./models/messagesModel.js";
 import { addProductService, getProductsService } from "./dao/productsMongo.js";
 import { initializaPassport } from "./config/passport.js";
 

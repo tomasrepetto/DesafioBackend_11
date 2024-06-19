@@ -1,4 +1,4 @@
-import { productModel } from "./models/productsModel.js";
+import { productModel } from "../models/productsModel.js";
 
 export const getProductsService = async ({limit = 10, page = 1, sort, query}) => {
         page = page == 0 ? 1 : page;

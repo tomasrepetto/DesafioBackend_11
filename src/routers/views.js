@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { cartIdView, chatView, homeView, login, loginGet, logout, productsView, realTimeProductsView, registerGet, registerPost } from '../dao/DB/viewsDB.js';
-import { admin, auth } from '../middleware/auth.js';
+import { admin, auth } from '../config/auth.js';
 import passport from 'passport';
 
 const router = Router();
